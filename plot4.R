@@ -45,7 +45,7 @@ plot(x = x_time, y = y2_1, ylim = c(0,40), ann = F, type = "l", col = "blue" )
 
 par(new = T)
 y3_1 <- df_nec$Sub_metering_3
-plot(x = x_time, y= y3_1, xlab = "", ylab= "Energy submetring", type = "l", col = "green",  ylim = c(0,40))
+plot(x = x_time, y= y3_1, xlab = "", ylab= "Energy sub metering", type = "l", col = "green",  ylim = c(0,40))
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), cex = 0.5, bty = "n", col = c("red", "blue", "green"), lty = 1)
 
 #lower right screen
